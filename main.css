@@ -1,0 +1,360 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*End of CSS reset*/
+
+body {
+  background-color: #fafafa;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+header {
+  width: 100%; 
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
+  background-color: white;
+  margin-bottom: 22px;
+}
+
+.logo {
+  height: 20px;
+}
+.hamburger {
+  height: 20px;
+  margin: 0 20px;
+}
+
+.search {
+  font-size: 16px;
+  border-radius: 2px 0px 0px 2px;
+  border: 1px solid #b5b5b5;
+  padding-left: 5px;
+  height: 28px;
+  width: 550px;
+  margin-left: 400px;
+}
+.searchbutton {
+  height: 32px;
+  width: 65px;
+  border-radius: 0px 2px 2px 0px;
+  border: 1px solid #b5b5b5;
+  border-left: 0;
+}
+
+.righticons {
+  float: right;
+  margin-right: 30px;
+}
+
+.bell {
+  height: 24px;
+  margin-left: 20px;
+}
+
+.profile {
+  border-radius: 16px;
+  margin-left: 30px;
+}
+
+.sidebar {
+  display: block;
+}
+
+.size1 {
+  width: 300px;
+  margin: 0 0 auto auto;
+}
+
+.suggestedvideo {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.suggestedtitle {
+  font-weight: 500;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.suggestedauthor {
+  margin-bottom: 8px;
+}
+
+.upnext {
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+h4{
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+#suggestions {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 16px;
+}
+
+.metadata {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.divider {
+  height: 0px;
+  width: 1280px;
+  border: 0;
+  border-top: 1px solid lightgray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#suggestiondivider {
+  width: 400px;
+}
+
+.content {
+  width: 1280px;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin: 0 0 0 100px;
+  display: inline-block;
+}
+
+#title {
+  margin-top: 18px;
+  font-size: 19px;
+}
+
+#info {
+  margin-top: 18px;
+  font-size: 16px;
+  color: gray;
+  vertical-align: top;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+#videomenu {
+  margin-top: 15px;
+  margin-right: 15px;
+  float: right;
+}
+
+.counter {
+  vertical-align: top;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-left: 6px;
+  color: #555;
+  font-size: 14px
+}
+
+#videoinfos {
+  margin-bottom: 18px;
+}
+
+.savebutton {
+  vertical-align: top;
+  height: 20px;
+}
+
+#authorprofilepic {
+  border-radius: 24px;
+  margin-right: 10px;
+}
+
+#name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#subscribers {
+  font-size: 13px;
+  color: gray;
+  margin-top: 3px;
+}
+
+#authorinfo {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+#bell2 {
+  float: right;
+  height: 24px;
+  margin: 15px;
+}
+
+.button {
+  height: 36px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 2px;
+}
+
+#subscribebutton {
+  margin-top: 10px;
+  width: 118px;
+  float: right;
+  background-color: #cecece;
+  color: #424242;
+  border: 1px solid #cecece;
+}
+
+.description {
+  font-size: 14px;
+  margin-top: 6px;
+  margin-left: 58px;
+}
+
+#showmore {
+  font-size: 13px;
+  font-weight: 500;
+  color: #4e4e4e;
+  margin-top: 13px;
+}
+
+#commentcount {
+  margin-top: 20px;
+}
+
+#sortby {
+  margin-left: 40px;
+  font-size: 15px;
+  color: #606060;
+  font-weight: 500;
+}
+
+#sortbybutton {
+  width: 22px;
+  vertical-align: top;
+}
+
+#sortbytext {
+  vertical-align: top;
+}
+
+.commentphoto {
+  vertical-align: top;
+  height: 40px;
+  border-radius: 20px;
+}
+
+#commentbox {
+  color: #606060;
+  font-size: 14px;
+  vertical-align: top;
+  height: 21px;
+  margin-left: 10px;
+  width: 1222px;
+  background-color: #fafafa;
+  border: 1px solid lightgray;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 5px;
+}
+
+#writecomment {
+  margin-top: 30px;
+
+  margin-bottom: 30px;
+}
+
+#commentauthor {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+#commentdate {
+  color: gray;
+  font-size: 13px;
+}
+
+#commenttexts {
+  width: 1162px;
+  margin-left: 10px;
+}
+
+#commentcontent {
+  margin-top: 7px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#replybutton {
+  color: gray;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 14px;
+  vertical-align: middle;
+}
+
+#comment {
+  margin-top: 20px;
+}
